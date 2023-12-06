@@ -13,6 +13,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@types/jsonwebtoken": "^9.0.5",
     "@tsconfig/node20": "^20.1.2",
     "@tsconfig/strictest": "^2.0.2",
     "@types/cors": "^2.8.15",
@@ -23,7 +24,9 @@
   },
   "dependencies": {
     "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
     "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
     "mkcert": "^3.2.0"
   }
 }
